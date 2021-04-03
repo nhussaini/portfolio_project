@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
 import Services from "./components/Services";
 import Experience from "./components/Experience";
+import Portfolio from "./components/Portfolio";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       params={{
         particles:{
           number:{
-            value:20,
+            value:40,
             density:{
               enable:true,
               value_area:900
@@ -38,6 +39,7 @@ function App() {
     <AboutMe />
     <Services />
     <Experience />
+    <Portfolio />
   </>
   );
 }
